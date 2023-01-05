@@ -1,0 +1,56 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
+
+/*Header*/
+
+body{
+    font-family: 'Brygada 1918', serif;
+   
+}
+
+.navbar{
+    background-color:crimson;
+}
+
+.navbar-item{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .3s ease-in-out all;
+    height:8vh;
+}
+.navbar-item:hover{
+    color: black !important;
+
+}
+
+/*Main*/
+.main-content {
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    height:40%;
+    width: 40%;
+    padding: 2rem 3rem;
+    overflow: auto;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2rem 1rem 2rem;
+}
+.container1 h1{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+tr{
+    
+    text-align: center;
+}
